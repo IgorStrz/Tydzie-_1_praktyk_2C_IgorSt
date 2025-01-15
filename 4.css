@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #048ABF;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 10px;
+}
+.baner {
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 20px;
+}
+.Produkty {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+}
+.Koszyk {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #F5F6FB;
+    border-radius: 5px;
+    width: 150px;
+    background: #F0F2F2;
+}
+.Koszyk img {
+    width: 100%;
+    height: auto;
+}
+footer {
+    background-color: #048ABF;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+a {
+    text-decoration: none;
+    font-family: italic;
+    font-size: 25px;
+    color: #0D0D0D;
+}
+p {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}

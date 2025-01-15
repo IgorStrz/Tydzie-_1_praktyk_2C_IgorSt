@@ -1,0 +1,40 @@
+body {
+    font-size: 50px;
+    text-align: center;
+    line-height: 280px;
+    background-color: #D9D9D9;
+}
+div {
+    width: 374px;
+    height: 300px;
+    float: left;
+    border: 1px solid #0D0D0D;
+}
+a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+#J {
+    background-color: #618C03;
+}
+#D {
+    background-color: #020873;;
+}
+#T {
+    background-color: #8C0E03;
+}
+#C {
+    background-color: #F2B705;
+}
+#P {
+    background-color:#F2CBBD;
+}
+#S {
+    background-color: #F20CA2;
+}
+#Ś {
+    background-color: #D91604;
+}
+#O {
+    background-color: #6E8C6D;
+}

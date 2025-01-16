@@ -15,12 +15,12 @@ button {
 button:hover {
     background-color: #005fa3;
 }
-#kontener{
+#pudelko{
     max-width: 400px;
     margin:auto;
     padding: 20px;
-    margin-top: 180px;
-    height: 300px;
+    margin-top: 120px;
+    height: 425px;
     background-color: #F2D5BB;
     border: 3px solid #EAA05A;
 }
@@ -38,4 +38,8 @@ a {
     font-family: italic;
     font-size: 25px;
     color: #0D0D0D;
+}
+img {
+    width: 50px;
+    height: 50px;
 }

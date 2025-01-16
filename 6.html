@@ -1,16 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="6.css">
-    <title>Strona z wyświetlającym się Vapoyronem</title>
+    <title>Strona ktura wyświetla Vapoyrona po kliknięciu</title>
 </head>
 <body>
-    <div id="kontener">
+    <div id="pudelko">
         <h1>Kliknij aby dodać Vaporeona</h1>
-        <button>Dodaj Vaporeona</button><br>
+        <button onclick="klik()">Dodaj Vaporeona</button><br>
     </div>
+    <script>
+        function klik() {
+            pudelko = document.getElementById("pudelko");
+            zdjecie = document.createElement("img");
+            zdjecie.src = "vaperion.jpg";
+            pudelko.appendChild(zdjecie);
+        }
+    </script>
     <footer>
         <a href="jedna stona z podstronami.html">Powrót do jednej stony z podstronami</a>
       </footer>

@@ -1,0 +1,82 @@
+body {
+    background-color: #BFBFBF;
+    font-family: Verdana; 
+    margin:0
+}
+.zdjecie {
+    display: none
+}
+img {
+vertical-align: middle;
+}
+.karuzela {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.poprzedni, .nastepny {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+.nastepny {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+.poprzedni:hover, .nastepny:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+.tekst {
+    color: #0D0D0D;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+.przycisk {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #F2F2F2;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+.przycisk:hover {
+    background-color: #717171;
+}
+.kropki {
+    text-align: center;
+}
+p {
+   font-family: italic; 
+   font-size: 20px;
+   color: #030BA6;
+}
+footer {
+    background-color: #048ABF;
+    color: #F2F2F2;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+a {
+    text-decoration: none;
+    font-family: italic;
+    font-size: 25px;
+    color: #0D0D0D;
+}

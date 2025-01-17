@@ -32,18 +32,19 @@ input, button {
 	width: 50%;
 	padding: 10px;
 	margin-top: 5px;
-	border: 1px solid black;
+	border: 1px solid #0D0D0D;
 	border-radius: 4px;
 }
 #srodek{
 	width: 600px;
+	height: 200px;
 	margin:auto;
 	margin-top: 100px;
 	background-color: #D3CBE8;
 	padding: 20px;
-	border: 2px solid black;
+	border: 2px solid #0D0D0D;
 }
 button {
 	background-color: #E62A15;
-	color: white;
+	color: #F2F2F2;
 }

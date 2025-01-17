@@ -12,13 +12,24 @@
     <div id="kontener">
         <div id="srodek">
             <span>Podatek:</span><br>
-            <input type="number" id="podatek"><br>
+            <input type="number" id="netto"><br>
             <span>Dochód Brutto:</span><br>
             <input type="number" id="brutto"><br>
-            <button onclick="oblicz()">OBLICZ</button>
+            <button onclick="obliczanie()">OBLICZ</button>
+            <div id="wynik"></div>
+            <div id="wynik2"></div>
         </div>
-        <div class="wynik"></div>
     </div>
+    <script>
+        function obliczanie() {
+            brutto = parseFloat(document.getElementById('brutto').value);
+            podatek = parseFloat(document.getElementById('netto').value);
+            pod = (brutto * podatek) / 100;
+            netto = brutto - pod;
+            document.getElementById('wynik').innerHTML ="Dochód netto: " +netto ;
+            document.getElementById('wynik2').innerHTML = "Podatek: " +pod;
+        }
+    </script>
     <footer>
         <a href="jedna stona z podstronami.html">Powrót do jednej stony z podstronami</a>
       </footer>

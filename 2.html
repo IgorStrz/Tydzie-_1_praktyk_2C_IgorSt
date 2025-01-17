@@ -18,10 +18,20 @@
             <span for="marza">Marża:</span><br>
             <input type="number" id="marza">
         </div>
-        <button onclick="oblicz()">Oblicz</button>
-        <div class="wynik2"></div>
-        <div class="wynik3"></div>
+        <button onclick="obliczenie()">Oblicz</button>
+        <div id="wynik"></div>
+        <div id="wynik2"></div>
     </div>
+    <script>
+        function obliczenie() {
+            marza = parseFloat(document.getElementById('marza').value);
+            sprzedaz= parseFloat(document.getElementById('sprzedaz').value);
+            obliczenia = (marza / 100) * sprzedaz;
+            obliczenia2 = (obliczenia) +sprzedaz;
+            document.getElementById('wynik').innerHTML = "Prowizja: " +obliczenia;
+            document.getElementById('wynik2').innerHTML = "Kwota z prowizją: " +obliczenia2;
+        }
+    </script>
     <footer>
         <a href="jedna stona z podstronami.html">Powrót do jednej stony z podstronami</a>
       </footer>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="3.css">
+  <title>Dowolna animacja</title>
+</head>
+<body>
+  <div class="kwadrat">
+    <img src="DVD.png" alt="DVD">
+  </div>
+  <script>
+    kwadrat = document.querySelector('.kwadrat');
+    let x = 100;
+    let y = 100;
+    let odbiciex = 2;
+    let odbiciey = 2;
+    function animacja() {
+      x += odbiciex;
+      y += odbiciey;
+      if (x <= 3 || x + 210 >= window.innerWidth) {
+        odbiciex = -odbiciex;
+      }
+      if (y <= 3 || y + 155 >= window.innerHeight) {
+        odbiciey = -odbiciey;
+      }
+      kwadrat.style.transform = `translate(${x}px, ${y}px)`;
+      requestAnimationFrame(animacja);
+    }
+    animacja();
+  </script>
+  <footer>
+    <a href="jedna stona z podstronami.html">Powrót do jednej stony z podstronami</a>
+  </footer>
+</body>
+</html>

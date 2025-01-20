@@ -1,0 +1,27 @@
+body {
+  text-align: center;
+  background-color: #0AFC70;
+}
+.kwadrat {
+  width: 200px;
+  height: 100px;
+}
+img {
+  width: 200px;
+  height: 100px;
+}
+footer {
+  background-color: #048ABF;
+  color: #F2F2F2;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+a {
+  text-decoration: none;
+  font-family: italic;
+  font-size: 25px;
+  color: #0D0D0D;
+}
